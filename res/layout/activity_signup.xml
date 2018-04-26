@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+    <LinearLayout style="@style/ll_input_line" >
+
+        <TextView
+            style="@style/tv_input_hint"
+            android:text="用户名:" />
+
+        <com.support.widget.ClearEditText
+            android:id="@+id/cet_uid"
+            style="@style/cet_input_normal" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ll_input_line" >
+
+        <TextView
+            style="@style/tv_input_hint"
+            android:text="密码:" />
+
+        <com.support.widget.ClearEditText
+            android:id="@+id/cet_pwd"
+            style="@style/cet_input_normal"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ll_input_line" >
+
+        <TextView
+            style="@style/tv_input_hint"
+            android:text="监控点名称:" />
+
+        <com.support.widget.ClearEditText
+            android:id="@+id/cet_ptname"
+            style="@style/cet_input_normal" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ll_input_line" >
+
+        <TextView
+            style="@style/tv_input_hint"
+            android:text="监控点ip:" />
+
+        <com.support.widget.ClearEditText
+            android:id="@+id/cet_ptip"
+            style="@style/cet_input_normal"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ll_input_line" >
+
+        <TextView
+            style="@style/tv_input_hint"
+            android:text="监控端口:" />
+
+        <com.support.widget.ClearEditText
+            android:id="@+id/cet_ptport"
+            style="@style/cet_input_normal"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ll_input_line" >
+
+        <TextView
+            android:id="@+id/tv_signup"
+            style="@style/tvbtn_default"
+            android:text="@string/signup" />
+    </LinearLayout>
+
+</LinearLayout>
